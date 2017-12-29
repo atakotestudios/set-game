@@ -16,6 +16,7 @@ attribute_label_extraction_fns = {
 }
 
 def copyfile(src_dir, dest_dir, file):
+    print(dest_dir)
     if not os.path.exists(dest_dir):
         os.makedirs(dest_dir)
     shutil.copyfile(os.path.join(src_dir, file), os.path.join(dest_dir, file))
