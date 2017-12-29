@@ -20,7 +20,7 @@
 # Change this to one of 'color', 'number', 'shape', 'shading', 'all',
 # or 'shape-small' to use the artificially small training dataset to observe overfitting
 # (in this case remove the dropout layer from the model too).
-attribute = 'color'
+attribute = 'all'
 
 # Count the images in each train/validation/test split
 import os
